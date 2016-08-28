@@ -1,6 +1,13 @@
 Using the Poniverse authentication source with SimpleSAMLphp
 ===========================================================
 
+For the main simplesamlpackage be sure run to get the libraries this
+driver depends on.
+
+```
+composer require poniverse/api:dev-rewrite
+```
+
 Remember to configure `authsources.php`, with both OAuth Client ID and Secret.
 
 ```
